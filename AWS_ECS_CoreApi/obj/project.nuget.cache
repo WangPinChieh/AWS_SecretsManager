@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "7+jGl27IOh+Dsrs6upRZUUictZH1UU8FzqCr+HVBQkYMFot6dju0nstBX5dX/QTyUB1JedJi+9Xmhpp+b2eljQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\WangJay\\RiderProjects\\AWS_ECS_CoreApi\\AWS_ECS_CoreApi\\AWS_ECS_CoreApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WangJay\\.nuget\\packages\\awssdk.core\\3.7.5.6\\awssdk.core.3.7.5.6.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.1\\awssdk.extensions.netcore.setup.3.7.1.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\awssdk.s3\\3.7.7.3\\awssdk.s3.3.7.7.3.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\awssdk.secretsmanager\\3.7.1.60\\awssdk.secretsmanager.3.7.1.60.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\WangJay\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

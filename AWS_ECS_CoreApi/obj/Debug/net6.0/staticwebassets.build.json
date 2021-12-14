@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "J6ZlU1ld+vorBxHiy+8e/GfukV18DxdXqFuyanZAvYY=",
+  "Source": "AWS_ECS_CoreApi",
+  "BasePath": "_content/AWS_ECS_CoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
