@@ -1,6 +1,9 @@
 using System.Text.Json.Serialization;
 using Amazon.S3;
 using AWS_ECS_CoreApi;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
