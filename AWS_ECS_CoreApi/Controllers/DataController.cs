@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Amazon;
 using Amazon.Runtime.CredentialManagement;
 using Amazon.S3;
+using Amazon.S3.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AWS_ECS_CoreApi.Controllers;
@@ -38,8 +39,15 @@ public class DataController : ControllerBase
             // };
             // new SharedCredentialsFile().RegisterProfile(credentialProfile);
 
-            var listObjectsResponse = await _amazonS3.ListObjectsAsync("svtp-webportal-dev",
-                "svtp-webportal-dev/SVTP800/Opel13/DB/AC02/", CancellationToken.None);
+            // var listObjectsResponse = await _amazonS3.ListObjectsAsync("svtp-webportal-dev",
+            //     "SVTP800/Opel13/DB/AC02",
+            //     CancellationToken.None
+            // );
+            var listObjectsResponse = await _amazonS3.ListObjectsV2Async(new ListObjectsV2Request
+            {
+                BucketName = "svtp-webportal-dev",
+                Prefix = "SVTP800/Opel13/DB/AC02",
+            });
             return Ok(new {listObjectsResponse});
         }
         catch (Exception e)
