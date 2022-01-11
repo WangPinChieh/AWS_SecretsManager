@@ -49,4 +49,19 @@ public class DataController : ControllerBase
             return Content(e.ToString());
         }
     }
+
+    [HttpPost("postData")]
+    public async Task<IActionResult> PostData(string url)
+    {
+        using var client = new HttpClient();
+        var response = await client.PostAsync(url, new StringContent(""));
+
+        return Ok(response);
+    }
+
+    [HttpPost("receiveData")]
+    public async Task<IActionResult> Receive()
+    {
+        return Ok(new {ReceivedDate = DateTime.Now});
+    }
 }
