@@ -1,4 +1,5 @@
-﻿using Amazon.S3;
+﻿using System.Net;
+using Amazon.S3;
 using Amazon.S3.Model;
 using Microsoft.AspNetCore.Mvc;
 
@@ -48,6 +49,14 @@ public class DataController : ControllerBase
         {
             return Content(e.ToString());
         }
+    }
+
+    [HttpGet("getIp")]
+    public IActionResult GetIp()
+    {
+        var hostName = Dns.GetHostName();
+        var myIP = Dns.GetHostByName(hostName).AddressList.Select(m => m.MapToIPv4().ToString());
+        return Ok(new {IP = myIP});
     }
 
     [HttpPost("postData")]
